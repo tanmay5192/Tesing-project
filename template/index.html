@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Services</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/nav.jpeg' %}">
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo"><img src="{% static 'img/about umage.jpeg' %}" alt="logo"></div>
+
+            <li> <a href="/">Home</a></li>
+            <li> <a href="/about">About Us</a></li>
+            <li> <a href="/services">Services</a></li>
+            <li> <a href="/contact">contact us</a></li>
+
+        </ul>
+        <!-- <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="search here">
+            <button class="btn btn-sm">search</button>
+        </div> -->
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="first-half">
+                <h1>Financial Services</h1>
+            </div>
+            <div class="second-half">
+
+            </div>
+        </div>
+
+        <div class="marquee">
+            <marquee behavior="scroll" direction="left" scrollamount="30" > "The changing nature of money is only one
+                facet of the financial services revolution."</marquee>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
